@@ -29,7 +29,7 @@ while doLoop:
             p.click(1672,681)
         while p.pixelMatchesColor(1673,620,(255,255,255),tolerance = 10):
             p.click(1673,620)
-    if a == 300:
+    if a == 600:
         a = 0
         if p.confirm(text='Stop the program?',title='',buttons=['Stop','Continue']) == 'Stop':
             doLoop = False
