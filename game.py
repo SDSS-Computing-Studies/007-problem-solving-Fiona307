@@ -3,6 +3,8 @@
 import pyautogui as p
 import time as t
 
+
+# Only works when the cookie cliker game is on the right half side of the screen
 doLoop = True
 count = 0
 a = 0
